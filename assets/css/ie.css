@@ -1,0 +1,40 @@
+/*border-radius*/
+.registration #submit,
+.registration div.error:after,
+.registration input[type="text"],
+.registration input[type="email"],
+.registration input[type="password"],
+.carousel ul li a,
+span.join,
+.slider li div a,
+.bx-controls .bx-pager-item a {
+	behavior: url(assets/css/PIE.php);
+}
+/*border-radius*/
+
+.carousel .bx-prev:hover,
+.carousel .bx-next:hover {
+	filter: alpha(opacity=60);
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+}
+
+.win li:hover img {
+	filter: alpha(opacity=70);
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70)
+}
+
+.pop li:hover img {
+		filter: alpha(opacity=80);
+		filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80)
+}
+
+.shadow {
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#cc000000',GradientType=0 )
+}
+
+.win li a,
+.pop li a {
+	background-image: url('images/arrows.gif');
+	background-repeat:no-repeat;
+	background-position: -9999px 0
+}
